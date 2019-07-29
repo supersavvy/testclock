@@ -62,7 +62,7 @@ function updateAll() {
     var deadline = new Date(currentTime + timeInMinutes*60*1000);
 
     // store deadline in cookie for future reference
-    document.cookie = 'myClock=' + deadline + '; path=/; domain=file:///Users/tokenadmin/Desktop/index.html';
+    document.cookie = 'myClock=' + deadline + '; path=/; domain=https://supersavvy.github.io/testclock/';
   }
   initializeClock("clockdiv", deadline);
 }
