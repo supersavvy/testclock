@@ -51,7 +51,6 @@ function initializeClock(id, endtime) {
 }
 
 function updateAll() {
-  document.cookie = "myClock=; expires=Thu, 01 Jan 2000 00:00:00 GMT";
   if(document.cookie && document.cookie.match('myClock')){
     // get deadline value from cookie
     var deadline = document.cookie.match(/(^|;)myClock=([^;]+)/)[2];
